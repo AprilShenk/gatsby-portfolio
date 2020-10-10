@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'April Shenk | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'April Shenk Portfolio',
+  name: 'April Shenk',
+  subtitle: 'Software Engineer | Explorer',
+  cta: 'Discover my story',
 };
 
 // ABOUT DATA
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://pdfhost.io/v/JFtKYWY8h_Shenk_Resumepdf.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -46,12 +46,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.jpg',
+    title: 'Grow and Bloom Nursery',
+    info: 'Built using React and CSS flexbox and grid. Mockup website for a plant nursery that allows users to request items also.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hopeful-kirch-723358.netlify.app/',
+    repo: 'https://github.com/AprilShenk/grow-and-bloom-nursery', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project1.jpg',
+    title: 'Taste the Best',
+    info: 'Built using vanilla JavaScript, HTML, CSS,  the DOM, and incorporates a third party API. The users can search for recipes or find by category.',
+    info2: '',
+    url: 'https://aprilshenk.github.io/taste-the-best/',
+    repo: 'https://github.com/AprilShenk/taste-the-best', // if no repo, the button will not show up
   },
 ];
 
@@ -59,31 +68,31 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'april.m.shenk@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/aprilshenk/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/AprilShenk',
     },
   ],
 };
