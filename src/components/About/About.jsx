@@ -45,7 +45,9 @@ const About = () => {
                   {paragraphTwo ||
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
+                {/* <p>{'Skills'}</p> */}
                 <p className="about-wrapper__info-text">
+                  <p><b><br></br>{'Skills'}</b></p>
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 {resume && (

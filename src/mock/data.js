@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://pdfhost.io/v/JFtKYWY8h_Shenk_Resumepdf.pdf', // if no resume, the button will not show up
+  paragraphOne: 'My name is April, it is a pleasure to meet you. I am based in Lexington, KY but I love to travel and explore. In my spare time, you can find me practicing yoga, hiking/kayaking, reading, or working on home improvement projects. After a few years of working in the field of events and hospitality, I knew it was time for a change. Once I asked myself what I enjoyed doing day to day I decided to try out programming because it\'s like solving a puzzle.',
+  paragraphTwo: 'That brings me to why you are here. I started self-teaching Python in February, then lost my job the end of March, due to COVID. This gave me time to learn and focus on what I could do to shift my career into the tech field. I finished an online class the middle of June and started at General Assembly\'s Software Engineering Immersive in August. During the program I confirmed my beliefs that Software Development is where I belong.',
+  paragraphThree: 'HTML, CSS, JavaScript, React, AJAX, Express, Node, Ruby, Ruby on Rails, Mongoose, MongoDB, SQL, Git/Github, Command Line',
+  resume: 'https://docs.google.com/document/d/1-qVb6T8_jKM3-mvpFRBPKrkD-m_95ia8SXYiRxQmxxo/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.jpg',
+    title: 'Apollo Hardware',
+    info: 'Collaborative admin mock-up site where a UX/UI design team provided my SEI team a prototype. With a group of 4 we completed this site specific to the prototype in a 1 week sprint.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://kind-heyrovsky-dce985.netlify.app/',
+    repo: 'https://github.com/AprilShenk/apollo-hardware', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -99,5 +99,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
