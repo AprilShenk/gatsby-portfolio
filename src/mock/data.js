@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'My name is April, it is a pleasure to meet you. I am based in Lexington, KY but I love to travel and explore. In my spare time, you can find me practicing yoga, hiking/kayaking, reading, or working on home improvement projects. After a few years of working in the field of events and hospitality, I knew it was time for a change. Once I asked myself what I enjoyed doing day to day I decided to try out programming because it\'s like solving a puzzle.',
   paragraphTwo: 'That brings me to why you are here. I started self-teaching Python in February, then lost my job the end of March, due to COVID. This gave me time to learn and focus on what I could do to shift my career into the tech field. I finished an online class the middle of June and started at General Assembly\'s Software Engineering Immersive in August. During the program I confirmed my beliefs that Software Development is where I belong.',
   paragraphThree: 'HTML, CSS, JavaScript, React, AJAX, Express, Node, Ruby, Ruby on Rails, Mongoose, MongoDB, SQL, Git/Github, Command Line',
-  resume: 'https://docs.google.com/document/d/1-qVb6T8_jKM3-mvpFRBPKrkD-m_95ia8SXYiRxQmxxo/edit?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://docdro.id/rhCMzqs', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
