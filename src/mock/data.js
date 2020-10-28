@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'My name is April, it is a pleasure to meet you. I am based in Lexington, KY but I love to travel and explore. In my spare time, you can find me practicing yoga, hiking/kayaking, reading, or working on home improvement projects. After a few years of working in the field of events and hospitality, I knew it was time for a change. I asked myself how I enjoyed spending my time and decided to pursue programming because it\'s like solving a puzzle.',
   paragraphTwo: 'That brings me to why you are here. I started self-teaching Python in February, then lost my job, due to COVID. This gave me time to learn and focus on what I could do to shift my career into the tech field. I finished an online class the middle of June and General Assembly\'s Software Engineering Immersive in October. During the program I confirmed my beliefs that Software Development is where I belong.',
   paragraphThree: 'HTML, CSS, JavaScript, React, Gatsby, AJAX, Express, Node, Ruby, Ruby on Rails, Python, Mongoose, MongoDB, SQL, Git/Github, Command Line',
-  resume: 'https://docdro.id/KYXrTHF', // if no resume, the button will not show up
+  resume: 'https://www.docdroid.net/KYXrTHF/april-shenk-resume-pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
