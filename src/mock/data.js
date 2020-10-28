@@ -18,23 +18,23 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'My name is April, it is a pleasure to meet you. I am based in Lexington, KY but I love to travel and explore. In my spare time, you can find me practicing yoga, hiking/kayaking, reading, or working on home improvement projects. After a few years of working in the field of events and hospitality, I knew it was time for a change. Once I asked myself what I enjoyed doing day to day I decided to pursue programming because it\'s like solving a puzzle.',
-  paragraphTwo: 'That brings me to why you are here. I started self-teaching Python in February, then lost my job at the end of March, due to COVID. This gave me time to learn and focus on what I could do to shift my career into the tech field. I finished an online class the middle of June and started at General Assembly\'s Software Engineering Immersive in August. During the program I confirmed my beliefs that Software Development is where I belong.',
-  paragraphThree: 'HTML, CSS, JavaScript, React, AJAX, Express, Node, Ruby, Ruby on Rails, Python, Mongoose, MongoDB, SQL, Git/Github, Command Line',
-  resume: 'https://docdro.id/QbJwy6m', // if no resume, the button will not show up
+  paragraphOne: 'My name is April, it is a pleasure to meet you. I am based in Lexington, KY but I love to travel and explore. In my spare time, you can find me practicing yoga, hiking/kayaking, reading, or working on home improvement projects. After a few years of working in the field of events and hospitality, I knew it was time for a change. I asked myself how I enjoyed spending my time and decided to pursue programming because it\'s like solving a puzzle.',
+  paragraphTwo: 'That brings me to why you are here. I started self-teaching Python in February, then lost my job, due to COVID. This gave me time to learn and focus on what I could do to shift my career into the tech field. I finished an online class the middle of June and General Assembly\'s Software Engineering Immersive in October. During the program I confirmed my beliefs that Software Development is where I belong.',
+  paragraphThree: 'HTML, CSS, JavaScript, React, Gatsby, AJAX, Express, Node, Ruby, Ruby on Rails, Python, Mongoose, MongoDB, SQL, Git/Github, Command Line',
+  resume: 'https://docdro.id/KYXrTHF', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'Only Yoga',
+    info: 'Built using Ruby on Rails and React. This is a log tracking full-stack application for yoga practices. Allows users to add multiple poses practiced to each log and includes User Authorization.',
+    info2: '',
+    url: 'https://vibrant-heyrovsky-31f3b5.netlify.app/',
+    repo: 'https://github.com/AprilShenk/only-yoga', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project3.jpg',
