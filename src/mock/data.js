@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'project4.jpg',
     title: 'Only Yoga',
     info: 'Built using Ruby on Rails and React. This is a log tracking full-stack application for yoga practices. Allows users to add multiple poses practiced to each log and includes User Authorization.',
-    info2: '',
+    info2: 'To have full access use the following credentials username: example and password: password',
     url: 'https://vibrant-heyrovsky-31f3b5.netlify.app/',
     repo: 'https://github.com/AprilShenk/only-yoga', // if no repo, the button will not show up
   },
